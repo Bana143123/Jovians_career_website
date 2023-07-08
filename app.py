@@ -17,7 +17,7 @@ JOBS=[
 ]
 @app.route("/")
 def hello_world():
-  return render_template("home.html",jobs=JOBS,company='JOVIAN')
+  return render_template("home.html",jobs=JOBS,company='NINA')
 
 @app.route('/api/jobitem')
 def jobdetail():
